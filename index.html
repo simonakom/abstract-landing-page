@@ -11,7 +11,7 @@
 </head>
 <body>
 <!-- header -->
-  <nav class="overflow-hidden">
+  <nav class="nav overflow-hidden">
     <div class="container">
       <div class="d-flex justify-content-between responsive-icons">
         <div class="left-side d-flex">
@@ -31,13 +31,37 @@
             <a href="https://goabstract.zendesk.com/auth/v2/login/signin?return_to=https%3A%2F%2Fhelp.abstract.com%2Fhc%2Fen-us&theme=hc&locale=en-us&brand_id=360000024632&auth_origin=360000024632%2Ctrue%2Ctrue"><button id="sign-button">Sign in</button></a>
           </div>
           <div class="nav-icons">
-            <i class="bi bi-search"></i>
-            <i class="bi bi-list"></i>
+            <button id="search-button"><i class="bi bi-search"></i></button>
+            <!-- "Hamburger menu": icon to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <button id="menu-button"><i class="bi bi-list"></i></button>
+            </a> 
+          </div>
           </div>
         </div>
       </div>
     </div>
   </nav>
+<!-- hidden search-button  -->
+  <div class="nav-search-input"> 
+    <div class="d-flex align-items-center justify-content-center"> 
+      <div class="nav-input input-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>  
+      <button><i class="bi bi-x"></i></button>
+    </div>
+  </div>
+<!-- hidden menu-button: hamburger menu -->
+<div class="topnav">
+  <div id="links">
+    <div class="bottom-line">
+      <a href="https://help.abstract.com/hc/en-us/articles/360050382291-Contact-Support">Submit a request</a>
+    </div>
+    <div class="mb-4">
+      <a href="https://goabstract.zendesk.com/auth/v2/login/signin?return_to=https%3A%2F%2Fhelp.abstract.com%2Fhc%2Fen-us&theme=hc&locale=en-us&brand_id=360000024632&auth_origin=360000024632%2Ctrue%2Ctrue">Sign in</a>
+    </div>
+  </div>
+</div>
 <!-- Search section -->
   <section class="search-section overflow-hidden">
     <div class="container">
@@ -188,5 +212,6 @@
         <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
       </svg><b>Help</b>
   </button>
+  <script src="script.js"></script>
 </body>
 </html>
