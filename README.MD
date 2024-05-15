@@ -5,5 +5,3 @@ This assignment is about recreating responsive "Abstract" <a href="https://help.
 <h4>🔹 Abstract page sample - <a href="https://simonakom.github.io/abstract-landing-page/index.html" style="font-size:small;">View</a><h4>
 
 
-
-
