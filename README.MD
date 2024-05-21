@@ -1,4 +1,4 @@
-# <span><img src="./images/icon.png" alt=icon style="height: 1em;"></span> "Abstract" landing page
+# <span><img src="./images/icon.png" alt=iabstract-con style="height: 1em;"></span> "Abstract" landing page
 
 This assignment is about recreating responsive "Abstract" <a href="https://help.abstract.com/hc/en-us" style="font-size:small;"> landing page</a> design using javascript/bootstrap/html/css and practising "hamburger menu".
 
