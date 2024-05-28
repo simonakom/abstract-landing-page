@@ -6,6 +6,9 @@
     min-height: 88px;
     background-color: black;
   }
+  nav a{
+    color: white;
+  }
   .left-side {
     margin-top: 25px;
     padding-left: 88px;
